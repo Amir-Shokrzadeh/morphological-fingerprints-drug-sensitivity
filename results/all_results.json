@@ -1,0 +1,22 @@
+{
+  "structure_only": {
+    "pearson_r": 0.3333,
+    "rmse": 2.4652
+  },
+  "morphology_only": {
+    "pearson_r": 0.6002,
+    "rmse": 2.0883
+  },
+  "concatenation": {
+    "pearson_r": 0.6085,
+    "rmse": 2.0542
+  },
+  "cross_attention": {
+    "pearson_r": 0.5972,
+    "rmse": 2.0656
+  },
+  "gated_fusion": {
+    "pearson_r": 0.5848,
+    "rmse": 2.0561
+  }
+}

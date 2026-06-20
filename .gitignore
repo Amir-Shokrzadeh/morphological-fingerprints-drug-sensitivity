@@ -1,0 +1,28 @@
+# Raw data (large, not redistributable / exceeds GitHub limits)
+data/raw/
+
+# Large processed file (357 MB - exceeds practical repo size)
+data/processed/jump_profiles_matched.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

@@ -1,0 +1,105 @@
+{
+  "mlp_multiseed": {
+    "structure_only": {
+      "r_mean": 0.2317,
+      "r_std": 0.065,
+      "rmse_mean": 2.479,
+      "rmse_std": 0.2513,
+      "r_per_seed": [
+        0.3006,
+        0.1348,
+        0.2875,
+        0.1761,
+        0.2596
+      ],
+      "seeds": [
+        42,
+        0,
+        1,
+        7,
+        21
+      ]
+    },
+    "morphology_only": {
+      "r_mean": 0.5109,
+      "r_std": 0.0586,
+      "rmse_mean": 2.1056,
+      "rmse_std": 0.2304,
+      "r_per_seed": [
+        0.5625,
+        0.5786,
+        0.4187,
+        0.4742,
+        0.5206
+      ],
+      "seeds": [
+        42,
+        0,
+        1,
+        7,
+        21
+      ]
+    },
+    "concatenation": {
+      "r_mean": 0.5485,
+      "r_std": 0.0663,
+      "rmse_mean": 2.0233,
+      "rmse_std": 0.2175,
+      "r_per_seed": [
+        0.6137,
+        0.6022,
+        0.4283,
+        0.5355,
+        0.5629
+      ],
+      "seeds": [
+        42,
+        0,
+        1,
+        7,
+        21
+      ]
+    }
+  },
+  "ridge_druglevel": {
+    "structure_only": {
+      "r_mean": 0.0119,
+      "r_std": 0.2702,
+      "rmse_mean": 2.313,
+      "rmse_std": 0.621
+    },
+    "morphology_only": {
+      "r_mean": 0.0098,
+      "r_std": 0.0968,
+      "rmse_mean": 2.973,
+      "rmse_std": 0.4465
+    },
+    "concatenation": {
+      "r_mean": 0.0121,
+      "r_std": 0.1363,
+      "rmse_mean": 2.6604,
+      "rmse_std": 0.3926
+    }
+  },
+  "single_seed_models": {
+    "cross_attention": {
+      "pearson_r": 0.5972,
+      "rmse": 2.0656
+    },
+    "gated_fusion": {
+      "pearson_r": 0.5848,
+      "rmse": 2.0561
+    }
+  },
+  "notes": {
+    "mlp_seeds": [
+      42,
+      0,
+      1,
+      7,
+      21
+    ],
+    "ridge_task": "drug-level mean IC50",
+    "mlp_task": "cell-line-level IC50"
+  }
+}

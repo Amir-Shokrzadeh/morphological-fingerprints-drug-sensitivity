@@ -49,7 +49,7 @@ morphological-fingerprints-drug-sensitivity/
 
 | Parameter | Value |
 |---|---|
-| Matched drugs (GDSC2 ∩ JUMP-CP) | 175 / 286 (76.4%) |
+| Matched drugs (GDSC2 ∩ JUMP-CP) | 175 / 229 with usable IDs (76.4%) |
 | Cancer cell lines | 969 |
 | LN_IC50 measurements | 153,882 |
 | Sensitivity matrix sparsity | 11.7% |

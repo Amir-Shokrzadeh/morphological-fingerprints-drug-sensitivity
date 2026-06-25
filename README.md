@@ -51,7 +51,7 @@ morphological-fingerprints-drug-sensitivity/
 |---|---|
 | Matched drugs (GDSC2 ∩ JUMP-CP) | 175 / 229 with usable IDs (76.4%) |
 | Cancer cell lines | 969 |
-| LN_IC50 measurements | 153,882 |
+| LN_IC50 measurements (unique pairs) | 149,679  |
 | Sensitivity matrix sparsity | 11.7% |
 | Morphological features (post-QC) | 3,178 |
 | Morgan fingerprint dimensions | 2,048 |

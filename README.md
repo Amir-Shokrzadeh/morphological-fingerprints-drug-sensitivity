@@ -3,7 +3,7 @@ Cell Painting profiles as a complementary drug representation for predicting can
 
 This repository contains the full analysis pipeline for a study investigating whether compound-level Cell Painting morphological profiles (JUMP-CP) improve quantitative drug sensitivity prediction when integrated with molecular structure representations, evaluated on the GDSC2 pharmacogenomic panel.
 
-📄 Manuscript: in preparation
+📄 Manuscript: in preparation for submission
 
 ## Key Findings
 
@@ -11,7 +11,7 @@ This repository contains the full analysis pipeline for a study investigating wh
 - **Morphology substantially outperforms molecular structure for drug sensitivity prediction:** Pearson R = 0.548 ± 0.155 (morphology-only) vs. 0.281 ± 0.167 (structure-only), evaluated across 25 random seeds (t = 6.50, p < 0.0001).
 - **This advantage holds even against classical machine learning baselines.** Random Forest and Gradient Boosting trained on the same Morgan fingerprints (R = 0.414 ± 0.202 and R = 0.372 ± 0.224, respectively) outperform the structure-only MLP, but morphology-based models still significantly outperform the strongest of these classical baselines (morphology-only vs. Random Forest: p = 0.012).
 - **Fusion architecture matters far less than input representation, but is not negligible.** Concatenation (R = 0.554 ± 0.130), cross-attention (R = 0.575 ± 0.116), and gated fusion (R = 0.492 ± 0.118) were evaluated across 25 random seeds. Cross-attention showed no statistically significant difference from concatenation (p = 0.111), but gated fusion performed significantly worse than concatenation (p = 0.005) — the choice of input representation (morphology vs. structure) still has far more impact on performance than the choice of fusion architecture.
-- **SHAP attribution shows the model relies predominantly on morphological features** (86.9% of total attribution), with systematic variation across drug mechanism classes (81.3–92.2%), consistent with pathway-specific phenotypic signatures.
+- **SHAP attribution, computed on the best-performing trained model (concatenation, test R = 0.720), shows the model relies predominantly on morphological features** (91.7% of total attribution), with systematic variation across drug mechanism classes (87.7–95.8%), consistent with pathway-specific phenotypic signatures. Feature-level attribution rankings are more sensitive to which specific trained model is examined than the modality- and pathway-level percentages above.
 
 ## Repository Structure
 
@@ -27,7 +27,7 @@ morphological-fingerprints-drug-sensitivity/
 │   ├── 03_modality_analysis.ipynb       # Chemical vs. morphological complementarity analysis
 │   ├── 04_baseline_models.ipynb         # Unimodal/concatenation baselines — original 5-seed pilot (superseded, see 08)
 │   ├── 05_cross_attention_model.ipynb   # Cross-attention and gated fusion — original 5-seed pilot (superseded, see 08)
-│   ├── 06_explainability.ipynb          # SHAP attribution analysis
+│   ├── 06_explainability.ipynb          # SHAP attribution analysis on the best-performing trained model (concatenation, seed=19, test R=0.720), identified via notebook 08's 25-seed results
 │   ├── 07_figures_paper.ipynb           # Publication-ready figure generation
 │   └── 08_additional_baselines.ipynb    # Classical ML baselines (Random Forest, Gradient Boosting) + 25-seed evaluation of all five model conditions — canonical source for all results reported in the manuscript
 ├── results/

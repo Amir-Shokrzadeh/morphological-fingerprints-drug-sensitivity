@@ -1,5 +1,4 @@
-# Morphological Fingerprints for Drug Sensitivity Prediction
-Cell Painting profiles as a complementary drug representation for predicting cancer drug sensitivity
+# Cell Painting profiles as a complementary drug representation for predicting cancer drug sensitivity
 
 This repository contains the full analysis pipeline for a study investigating whether compound-level Cell Painting morphological profiles (JUMP-CP) improve quantitative drug sensitivity prediction when integrated with molecular structure representations, evaluated on the GDSC2 pharmacogenomic panel.
 

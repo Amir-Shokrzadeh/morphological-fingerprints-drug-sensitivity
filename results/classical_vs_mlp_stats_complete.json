@@ -1,0 +1,46 @@
+{
+  "RF-structure vs MLP-structure": {
+    "t": 2.523983177211258,
+    "p": 0.01863050046956941,
+    "delta_R": 0.05778434005142197
+  },
+  "RF-morphology vs MLP-morphology": {
+    "t": 4.028315518251149,
+    "p": 0.0004905128285430454,
+    "delta_R": 0.06294650074347063
+  },
+  "RF-concatenation vs MLP-concatenation": {
+    "t": 4.360340510910561,
+    "p": 0.0002112789686987847,
+    "delta_R": 0.0564192464943547
+  },
+  "GBM-structure vs MLP-structure": {
+    "t": 0.6712595420650491,
+    "p": 0.5084649915991845,
+    "delta_R": 0.020691006711597293
+  },
+  "GBM-morphology vs MLP-morphology": {
+    "t": 2.2609610667569657,
+    "p": 0.03310572100405294,
+    "delta_R": 0.05196993023853114
+  },
+  "GBM-concatenation vs MLP-concatenation": {
+    "t": 3.750877782339079,
+    "p": 0.0009863682861874546,
+    "delta_R": 0.0473352367172325
+  },
+  "RidgeCV-structure vs MLP-structure": {
+    "t": -0.9094636025334718,
+    "p": 0.3721488255349441,
+    "delta_R": -0.018910645258095327
+  },
+  "RidgeCV-morphology vs MLP-morphology": {
+    "t": 2.314425825885942,
+    "p": 0.02951834168253985,
+    "delta_R": 0.03001389589359249
+  },
+  "RF-concatenation vs best neural (cross-attention)": {
+    "t": 4.402313229489987,
+    "p": 0.0001898904514536646
+  }
+}

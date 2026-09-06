@@ -26,3 +26,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Model checkpoints (regenerate by running notebook 08)
+*.pt

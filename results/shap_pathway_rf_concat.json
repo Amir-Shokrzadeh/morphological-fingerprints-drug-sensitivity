@@ -1,0 +1,86 @@
+{
+  "Apoptosis regulation": {
+    "pct_morphology": 95.89972300396671,
+    "n_observations": 34
+  },
+  "Cell cycle": {
+    "pct_morphology": 96.93972176349429,
+    "n_observations": 28
+  },
+  "Chromatin histone acetylation": {
+    "pct_morphology": 95.35704046772068,
+    "n_observations": 21
+  },
+  "Chromatin histone methylation": {
+    "pct_morphology": 95.11406640853767,
+    "n_observations": 42
+  },
+  "Chromatin other": {
+    "pct_morphology": 94.36414118647278,
+    "n_observations": 25
+  },
+  "DNA replication": {
+    "pct_morphology": 92.27967929096216,
+    "n_observations": 44
+  },
+  "EGFR signaling": {
+    "pct_morphology": 94.88180067307566,
+    "n_observations": 20
+  },
+  "ERK MAPK signaling": {
+    "pct_morphology": 95.15197028002562,
+    "n_observations": 40
+  },
+  "Genome integrity": {
+    "pct_morphology": 95.21870579660776,
+    "n_observations": 37
+  },
+  "Hormone-related": {
+    "pct_morphology": 94.39374371645025,
+    "n_observations": 20
+  },
+  "IGF1R signaling": {
+    "pct_morphology": 95.91523772314952,
+    "n_observations": 20
+  },
+  "Metabolism": {
+    "pct_morphology": 94.36259273696616,
+    "n_observations": 21
+  },
+  "Mitosis": {
+    "pct_morphology": 98.23816941578882,
+    "n_observations": 15
+  },
+  "Other": {
+    "pct_morphology": 91.58848637718162,
+    "n_observations": 52
+  },
+  "Other, kinases": {
+    "pct_morphology": 95.47604037077477,
+    "n_observations": 58
+  },
+  "PI3K/MTOR signaling": {
+    "pct_morphology": 96.16137640935389,
+    "n_observations": 66
+  },
+  "Protein stability and degradation": {
+    "pct_morphology": 97.5073385173626,
+    "n_observations": 21
+  },
+  "RTK signaling": {
+    "pct_morphology": 95.8846326520109,
+    "n_observations": 35
+  },
+  "Unclassified": {
+    "pct_morphology": 95.44790555428322,
+    "n_observations": 9
+  },
+  "WNT signaling": {
+    "pct_morphology": 93.76723511327721,
+    "n_observations": 30
+  },
+  "p53 pathway": {
+    "pct_morphology": 93.43948893668332,
+    "n_observations": 4
+  }
+}

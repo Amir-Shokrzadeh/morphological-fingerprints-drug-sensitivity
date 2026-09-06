@@ -1,0 +1,16 @@
+{
+  "orthogonality": {
+    "r": 0.030690434050661915,
+    "p_perm": 0.005699430056994301
+  },
+  "chemistry_vs_response": {
+    "r": -0.09176916648676751,
+    "p_perm": 0.033596640335966405
+  },
+  "morphology_vs_response": {
+    "r": 0.2530647470055231,
+    "p_perm": 9.999000099990002e-05
+  },
+  "n_pairs_excluded_overlap": 48,
+  "n_permutations": 10000
+}
